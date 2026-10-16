@@ -1,0 +1,68 @@
+{
+  "apiVersion": 2,
+  "manifestVersion": 2,
+  "id": "placeholder.sample-theme",
+  "version": "0.1.0",
+  "displayName": "Placeholder Sample Theme",
+  "description": "Two colour themes for testing the DevPulse Marketplace: Sample Teal (dark) and Sample Sand (light).",
+  "publisher": {
+    "id": "placeholder",
+    "displayName": "Marketplace test placeholder"
+  },
+  "authors": [
+    {
+      "name": "Marketplace test placeholder"
+    }
+  ],
+  "license": "Apache-2.0",
+  "licenseFile": "LICENSE",
+  "readme": "README.md",
+  "defaultLocale": "en",
+  "locales": [],
+  "engines": {
+    "devpulse": ">=0.0.1 <1.0.0"
+  },
+  "links": {
+    "repository": "https://github.com/devpulseapp/devpulse-test-theme-sample"
+  },
+  "target": {
+    "platform": "any",
+    "architecture": "any"
+  },
+  "apiFeatures": {
+    "required": [
+      "contributions.theme-v1",
+      "themes.document-v1"
+    ],
+    "optional": []
+  },
+  "runtime": {
+    "id": "sample-theme",
+    "tier": "declarative"
+  },
+  "contributes": [
+    {
+      "id": "sample-teal",
+      "type": "theme",
+      "displayName": "Sample Teal",
+      "description": "A dark teal theme.",
+      "permissionIds": [],
+      "settingIds": [],
+      "requirementIds": [],
+      "file": "themes/sample-teal.json"
+    },
+    {
+      "id": "sample-sand",
+      "type": "theme",
+      "displayName": "Sample Sand",
+      "description": "A light sand theme.",
+      "permissionIds": [],
+      "settingIds": [],
+      "requirementIds": [],
+      "file": "themes/sample-sand.json"
+    }
+  ],
+  "permissions": [],
+  "requirements": [],
+  "settings": []
+}

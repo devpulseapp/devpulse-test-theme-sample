@@ -1,0 +1,15 @@
+{
+  "name": "placeholder-sample-theme",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "devpulse-addon build .",
+    "test": "devpulse-addon build . && devpulse-addon test . --strict",
+    "package": "devpulse-addon build . && devpulse-addon pack . --output=dist/"
+  },
+  "devDependencies": {
+    "devpulse-addon-sdk-v2": "file:../sdk/devpulse-addon-sdk-v2-0.20.0.tgz"
+  }
+}

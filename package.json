@@ -1,0 +1,10 @@
+{
+  "name": "devpulse-test-theme-sample",
+  "private": true,
+  "type": "module",
+  "description": "A placeholder Theme for testing the DevPulse Marketplace. Temporary: deleted when the Marketplace goes live.",
+  "workspaces": ["sample"],
+  "devDependencies": {
+    "devpulse-addon-sdk-v2": "file:sdk/devpulse-addon-sdk-v2-0.20.0.tgz"
+  }
+}
