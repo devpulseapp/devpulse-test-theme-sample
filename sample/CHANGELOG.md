@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.1 — 2026-11-15
+
+- Sample Sand’s green confirm button gets darker under the pointer instead of lighter, so its white text stays easy to read.
+
 ## 0.3.0 — 2026-10-18
 
 - Text, status and Git colours read clearly on every row, selected and pressed rows included, and on the title bar.
